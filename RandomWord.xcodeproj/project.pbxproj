@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		45129A022841E34D00984592 /* RandomWordApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45129A012841E34D00984592 /* RandomWordApp.swift */; };
-		45129A042841E34D00984592 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45129A032841E34D00984592 /* ContentView.swift */; };
+		45129A042841E34D00984592 /* ChooseNumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45129A032841E34D00984592 /* ChooseNumView.swift */; };
 		45129A062841E35000984592 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45129A052841E35000984592 /* Assets.xcassets */; };
 		45129A092841E35000984592 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45129A082841E35000984592 /* Preview Assets.xcassets */; };
 		45129A132841E35000984592 /* RandomWordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45129A122841E35000984592 /* RandomWordTests.swift */; };
 		45129A1D2841E35000984592 /* RandomWordUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45129A1C2841E35000984592 /* RandomWordUITests.swift */; };
 		45129A1F2841E35000984592 /* RandomWordUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45129A1E2841E35000984592 /* RandomWordUITestsLaunchTests.swift */; };
+		4578E439284254E400E2CCEE /* ShowWordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4578E438284254E400E2CCEE /* ShowWordsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		451299FE2841E34D00984592 /* RandomWord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomWord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45129A012841E34D00984592 /* RandomWordApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomWordApp.swift; sourceTree = "<group>"; };
-		45129A032841E34D00984592 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		45129A032841E34D00984592 /* ChooseNumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseNumView.swift; sourceTree = "<group>"; };
 		45129A052841E35000984592 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45129A082841E35000984592 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		45129A0E2841E35000984592 /* RandomWordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomWordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +45,7 @@
 		45129A182841E35000984592 /* RandomWordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomWordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45129A1C2841E35000984592 /* RandomWordUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomWordUITests.swift; sourceTree = "<group>"; };
 		45129A1E2841E35000984592 /* RandomWordUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomWordUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4578E438284254E400E2CCEE /* ShowWordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowWordsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				45129A012841E34D00984592 /* RandomWordApp.swift */,
-				45129A032841E34D00984592 /* ContentView.swift */,
+				45129A032841E34D00984592 /* ChooseNumView.swift */,
+				4578E438284254E400E2CCEE /* ShowWordsView.swift */,
 				45129A052841E35000984592 /* Assets.xcassets */,
 				45129A072841E35000984592 /* Preview Content */,
 			);
@@ -257,7 +260,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45129A042841E34D00984592 /* ContentView.swift in Sources */,
+				4578E439284254E400E2CCEE /* ShowWordsView.swift in Sources */,
+				45129A042841E34D00984592 /* ChooseNumView.swift in Sources */,
 				45129A022841E34D00984592 /* RandomWordApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
