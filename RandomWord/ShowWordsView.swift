@@ -14,17 +14,33 @@ struct ShowWordsView: View {
     @State var words = [String]()
     
     var body: some View {
-
+        
         VStack{
-        List(words, id:\.self) { randomWord in
-            Text(randomWord)
+            
+            Picker("How many words do you want?",selection: $numberOfWords ) {
+                ForEach(1..<16){
+                    Text("\($0)")
+                }
+            }
+            .pickerStyle(.wheel)
+            
+            NavigationLink {
+                ShowWordsView(numberOfWords: $numberOfWords)
+            } label: {
+                Text("Generate \(numberOfWords+1) Words")
+                    .padding(.all)
+                    .background(Color.blue)
+                    .foregroundColor(.white)
+                    .cornerRadius(10)
+            }
+            
+            List(words, id:\.self) { randomWord in
+                Text(randomWord)
+            }
+            .task{
+                await loadData()
+            }
         }
-        .task{
-            await loadData()
-        }
-     //       Text(numberOfWords)
-        }
-          //    Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
     
     func loadData() async{
@@ -51,5 +67,5 @@ struct ShowWordsView_Previews: PreviewProvider {
     static var previews: some View {
         ChooseNumView()
     }
-
+    
 }

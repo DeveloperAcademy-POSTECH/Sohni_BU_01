@@ -13,5 +13,5 @@ struct RandomWordApp: App {
         WindowGroup {
             ChooseNumView()
         }
-    }
+    }   
 }

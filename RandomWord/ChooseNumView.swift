@@ -28,12 +28,12 @@ struct ChooseNumView: View {
                         .foregroundColor(.white)
                         .cornerRadius(10)
                 }
-
+                
                 
             }
         }
-        .padding(.horizontal)
-        .frame(height: nil)
+     //   .padding(.horizontal)
+     //   .frame(height: nil)
         .navigationBarTitle("How many words?")
         
     }
