@@ -15,6 +15,7 @@
 		45129A1D2841E35000984592 /* RandomWordUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45129A1C2841E35000984592 /* RandomWordUITests.swift */; };
 		45129A1F2841E35000984592 /* RandomWordUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45129A1E2841E35000984592 /* RandomWordUITestsLaunchTests.swift */; };
 		4578E439284254E400E2CCEE /* ShowWordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4578E438284254E400E2CCEE /* ShowWordsView.swift */; };
+		45A7824F286AF396007F50F1 /* WordsHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A7824E286AF396007F50F1 /* WordsHistoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		45129A1C2841E35000984592 /* RandomWordUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomWordUITests.swift; sourceTree = "<group>"; };
 		45129A1E2841E35000984592 /* RandomWordUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomWordUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4578E438284254E400E2CCEE /* ShowWordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowWordsView.swift; sourceTree = "<group>"; };
+		45A7824E286AF396007F50F1 /* WordsHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsHistoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				45129A012841E34D00984592 /* RandomWordApp.swift */,
 				45129A032841E34D00984592 /* ChooseNumView.swift */,
 				4578E438284254E400E2CCEE /* ShowWordsView.swift */,
+				45A7824E286AF396007F50F1 /* WordsHistoryView.swift */,
 				45129A052841E35000984592 /* Assets.xcassets */,
 				45129A072841E35000984592 /* Preview Content */,
 			);
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4578E439284254E400E2CCEE /* ShowWordsView.swift in Sources */,
+				45A7824F286AF396007F50F1 /* WordsHistoryView.swift in Sources */,
 				45129A042841E34D00984592 /* ChooseNumView.swift in Sources */,
 				45129A022841E34D00984592 /* RandomWordApp.swift in Sources */,
 			);

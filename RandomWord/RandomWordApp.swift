@@ -11,7 +11,17 @@ import SwiftUI
 struct RandomWordApp: App {
     var body: some Scene {
         WindowGroup {
-            ChooseNumView()
+            TabView{
+                ChooseNumView()
+                    .tabItem{
+                        Label("Home",systemImage:"house")
+                    }
+                WordsHistoryView()
+                    .tabItem{
+                        Label("History",systemImage:"clock")
+                    }
+            }
+            
         }
     }   
 }
