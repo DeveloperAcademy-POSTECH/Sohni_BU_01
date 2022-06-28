@@ -24,16 +24,16 @@ struct ShowWordsView: View {
             }
             .pickerStyle(.wheel)
             
-            NavigationLink {
-                ShowWordsView(numberOfWords: $numberOfWords)
-            } label: {
-                Text("Generate \(numberOfWords+1) Words")
-                    .padding(.all)
-                    .background(Color.blue)
-                    .foregroundColor(.white)
-                    .cornerRadius(10)
-            }
-            
+            Button("Generate \(numberOfWords+1) Words",action:{
+                Task{
+                    await loadData()
+                }
+            })
+            .padding(.all)
+            .background(Color.blue)
+            .foregroundColor(.white)
+            .cornerRadius(10)
+
             List(words, id:\.self) { randomWord in
                 Text(randomWord)
             }
